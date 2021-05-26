@@ -3,14 +3,17 @@ import { makeStyles } from '@material-ui/core/styles';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
 import IconButton from '@material-ui/core/IconButton';
-import InfoIcon from '@material-ui/icons/Info';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const useStyles = makeStyles((theme) => ({
     icon: {
         color: 'rgba(255, 255, 255, 0.54)',
     },
     image: {
-        width: 445,
+        
+        height: 300,
+        objectFit: "cover",
+        maxWidth: 445,
     },
     tile: {
         marginRight: 10,
@@ -18,23 +21,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-/**
- * The example data is structured as follows:
- *
- * import image from 'path/to/image.jpg';
- * [etc...]
- *
- * const tileData = [
- *   {
- *     img: image,
- *     title: 'Image',
- *     author: 'author',
- *   },
- *   {
- *     [etc...]
- *   },
- * ];
- */
+
 export default function TitlebarGridList({ value }) {
     const classes = useStyles();
     return (
@@ -45,7 +32,7 @@ export default function TitlebarGridList({ value }) {
                 subtitle={<span>by: {value.author}</span>}
                 actionIcon={
                     <IconButton aria-label={`info about ${value.title}`} className={classes.icon}>
-                        <InfoIcon />
+                        <GitHubIcon />
                     </IconButton>
                 }
             />

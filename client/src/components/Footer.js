@@ -26,24 +26,12 @@ function Navbar() {
         <div className={classes.root}>
             <AppBar position="static">
                 <Toolbar>
-                    <Typography variant="h6" className={classes.title}>
+                    <Typography variant="h5" className={classes.title}>
                         Dylan Couzon
                     </Typography>
-                    <IconButton aria-label="gitHub" color="inherit">
-                        <GitHubIcon />
-                    </IconButton>
-                    <IconButton aria-label="Email" color="inherit">
-                        <EmailIcon />
-                    </IconButton>
-                    <IconButton aria-label="LinkedIn" color="inherit">
-                        <LinkedInIcon />
-                    </IconButton>
-                    <IconButton aria-label="Phone" color="inherit">
-                        <PhoneIcon />
-                    </IconButton>
-                    <IconButton aria-label="Resume" color="inherit">
-                        <InfoIcon />
-                    </IconButton>
+                    <Typography variant="h7">
+                        For UC Berkeley Coding Bootcamp -- 2021 
+                    </Typography>
                 </Toolbar>
             </AppBar>
         </div>
