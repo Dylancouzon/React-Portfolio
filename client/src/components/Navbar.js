@@ -29,7 +29,7 @@ function Navbar() {
                     <Typography variant="h6" className={classes.title}>
                         Dylan Couzon Portfolio
                     </Typography>
-                    <IconButton aria-label="Resume" color="inherit" href="/">
+                    <IconButton aria-label="Resume" color="inherit" href="/React-Portfolio">
                         <AppsIcon />
                     </IconButton>
                     <IconButton aria-label="gitHub" color="inherit" target="_blank" href="https://github.com/Dylancouzon?tab=repositories">
@@ -41,7 +41,7 @@ function Navbar() {
                     <IconButton aria-label="LinkedIn" color="inherit" target="_blank" href="https://www.linkedin.com/in/dcouzon/">
                         <LinkedInIcon />
                     </IconButton>
-                    <IconButton aria-label="Resume" color="inherit" href="/about">
+                    <IconButton aria-label="Resume" color="inherit" to="/React-Portfolio/#/about">
                         <InfoIcon />
                     </IconButton>
                 </Toolbar>
