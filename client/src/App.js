@@ -1,9 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Navbar from './components/Navbar.js';
-
 import Footer from './components/Footer.js';
 import Container from '@material-ui/core/Container';
 
@@ -15,8 +14,9 @@ function App() {
       <Container maxWidth="md">
         <Route exact path="/about" component={About} />
         <Route path="/*" component={Home} />
-        <Footer />
+        
       </Container>
+      <Footer />
     </Router>
   );
 }
