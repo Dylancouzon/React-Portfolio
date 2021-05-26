@@ -1,23 +1,23 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
 import Navbar from './components/Navbar.js';
-import CardGrid from './components/CardGrid.js';
+
 import Footer from './components/Footer.js';
 import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
 
 function App() {
 
   return (
-    <>
-    <Navbar />
-
-    <Container maxWidth="md">
-        <CardGrid />
+    <Router>
+      <Navbar />
+      <Container maxWidth="md">
+        <Route exact path="/about" component={About} />
+        <Route path="/*" component={Home} />
         <Footer />
-    </Container>
-
-    
-    </>
+      </Container>
+    </Router>
   );
 }
 
