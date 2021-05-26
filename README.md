@@ -1,94 +1,74 @@
-# Unit 20 React Homework: React Portfolio
+# React Portfolio
+Project for UC Berkeley coding Bootcamp
 
-Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
+![Site](./client/public/screenshot.png)
 
-## Requirements
-
-* Updated portfolio featuring 6 total projects
-
-* Use React
-
-* A `Header` component that appears on multiple pages
-
-* A single `Project` component that will be used multiple times on a single page
-
-* Navigation with React Router, dynamic rendering, or another third part router
-
-* A `Footer` component that appears on multiple pages
-
-* Update GitHub profile with pinned repositories featuring those same projects
-
-## Grading
-
-| Requirement    | Weight |
-| -------------- | ------ |
-| Portoflio      | 90%    |
-| GitHub Profile | 10%    |
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- [React](https://reactjs.org/)
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/) packages
+    - [material-ui](https://material-ui.com/s)
+    - [react-router-dom](https://reactrouter.com/web/guides/quick-start)
+    - [react-pdf](https://www.npmjs.com/package/react-pdf)
+    - [gh-pages](https://www.npmjs.com/package/gh-pages)
 
 
-## Instructions
+## Summary 
+Updated React Portfolio using Material-ui.
 
-  - [Updated Portfolio](#updated-portfolio)
-    - [Design](#design)
-  - [React](#react)
-  - [Updated LinkedIn Profile](#updated-linkedin-profile)
+## How to install
+download the files then open your terminal in the folder.
+Have node installed on you machine then run the command :
 
-### Updated Portfolio
+```
+npm install
+```
 
-Your updated site should still have all of the content it previously had:
+## How to use it
 
-* Your name
+run the commande 
 
-* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+```
+cd client
+```
 
-* A link to a PDF of your resume with updated projects
+Then
 
-* A list of projects. For each project, make sure you have the following:
+```
+npm start
+```
 
-  * Project title
+## Code Snippet  
+```Javascript 
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    overflow: 'hidden',
+    backgroundColor: theme.palette.background.paper,
+    marginBottom: 20,
+    marginTop: 20,
+  },
+  icon: {
+    color: 'rgba(255, 255, 255, 0.54)',
+  },
+}));
 
-  * Link to the deployed version
+```
+In this App, I used Material-UI's styling solution to write the components styles.
+Doing so, I have been able to use CSS in JS with ease.
 
-  * Link to the GitHub repository
+## Deployed Link
 
-  * GIF or screenshot of the deployed application
-
-
-#### Design
-
-As with the previous portfolio homework, "good" design is subjective. Your site should look
-"polished." Here are a few guidelines on what that means:
-
-* Mobile-first design
-
-* Choose a color palette for your site so it doesn't just look like
-the default bootstrap theme or an unstyled HTML site. You may we
-
-* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
-
-* If you want to go above and beyond, try using animations and react component libraries. Note 
-that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
-
-### React
-
-Additionally, this new portfolio should be created using React.
-
-At a minimum, your portfolio should include the following:
-
-* A `Header` component that appears on multiple pages
-
-* A single `Project` component that will be used multiple times on a single page 
-
-* Navigation with React Router, dynamic rendering, or another third part router
-
-* A `Footer` component that appears on multiple pages
+[See Live Site](https://dylancouzon.github.io/React-Portfolio)
 
 
-### Updated LinkedIn Profile 
-
-Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+## Author Links
+[LinkedIn](https://www.linkedin.com/in/dcouzon/)
+[GitHub](https://github.com/Dylancouzon)
