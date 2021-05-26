@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Navbar from './components/Navbar.js';
@@ -9,15 +9,20 @@ import Container from '@material-ui/core/Container';
 function App() {
 
   return (
-    <Router>
+    <>
       <Navbar />
       <Container maxWidth="md">
-        <Route exact path="/about" component={About} />
-        <Route path="/*" component={Home} />
-        
+
+        <Router basename={process.env.PUBLIC_URL}>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+          </Switch>
+        </Router>
+
       </Container>
       <Footer />
-    </Router>
+    </>
   );
 }
 

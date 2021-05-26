@@ -41,7 +41,7 @@ function Navbar() {
                     <IconButton aria-label="LinkedIn" color="inherit" target="_blank" href="https://www.linkedin.com/in/dcouzon/">
                         <LinkedInIcon />
                     </IconButton>
-                    <IconButton aria-label="Resume" color="inherit" href="/about#">
+                    <IconButton aria-label="Resume" color="inherit" href="/about">
                         <InfoIcon />
                     </IconButton>
                 </Toolbar>
