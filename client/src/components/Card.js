@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
         
         height: 300,
         objectFit: "cover",
-        maxWidth: 445,
+        width: 445,
     },
     tile: {
         marginRight: 10,
@@ -29,9 +29,9 @@ export default function TitlebarGridList({ value }) {
             <img src={value.img} alt={value.title} className={classes.image} />
             <GridListTileBar
                 title={value.title}
-                subtitle={<span>by: {value.author}</span>}
+                subtitle={<span>{value.date}</span>}
                 actionIcon={
-                    <IconButton aria-label={`info about ${value.title}`} className={classes.icon}>
+                    <IconButton aria-label={value.title} className={classes.icon} target="_blank" href={value.link}>
                         <GitHubIcon />
                     </IconButton>
                 }

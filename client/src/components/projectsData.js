@@ -1,37 +1,40 @@
 const tileData = [
-    {
-      img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png',
-      title: 'Breakfast',
-      author: 'jill111',
-      cols: 2,
-      featured: true,
-    },
-    {
-      img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png',
-      title: 'Tasty burger',
-      author: 'director90',
-    },
-    {
-      img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png',
-      title: 'Camera',
-      author: 'Danson67',
-    },
-    {
-      img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png',
-      title: 'Morning',
-      author: 'fancycrave1',
-      featured: true,
-    },
-    {
-      img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png',
-      title: 'Hats',
-      author: 'Hans',
-    },
-    {
-      img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png',
-      title: 'Honey',
-      author: 'fancycravel',
-    },
-  ];
-  
-  export default tileData;
+  {
+    img: 'https://github.com/Dylancouzon/farQuest/raw/main/public/assets/homepage.gif',
+    title: 'FarQuest',
+    date: 'May 10, 2021',
+    link: 'https://github.com/Dylancouzon/farQuest',
+  },
+  {
+    img: 'https://i.ibb.co/jDdP2NZ/vaccinator.png',
+    title: 'The Vaccinator',
+    date: 'May 11, 2021',
+    link: 'https://github.com/Dylancouzon/GroupProject',
+  },
+  {
+    img: 'https://github.com/Dylancouzon/React-EmployeeDirectory/raw/main/public/screenshot.png',
+    title: 'Camera',
+    date: 'May 21, 2021',
+    link: 'https://github.com/Dylancouzon/React-EmployeeDirectory',
+  },
+  {
+    img: 'https://github.com/Dylancouzon/Clicky-Game/raw/main/public/images/screenshot.png',
+    title: 'Morning',
+    date: 'May 18, 2021',
+    link: 'https://github.com/Dylancouzon/Clicky-Game',
+  },
+  {
+    img: 'https://github.com/Dylancouzon/Fitness-Tracker/raw/main/public/screenshot.png',
+    title: 'Hats',
+    date: 'May 14, 2021',
+    link: 'https://github.com/Dylancouzon/Fitness-Tracker',
+  },
+  {
+    img: 'https://github.com/Dylancouzon/Blog-site/raw/main/public/demo.gif',
+    title: 'Honey',
+    date: 'May 3rd, 2021',
+    link: 'https://github.com/Dylancouzon/Blog-site',
+  },
+];
+
+export default tileData;
