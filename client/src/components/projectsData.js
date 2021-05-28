@@ -1,5 +1,11 @@
 const tileData = [
   {
+    img: 'https://github.com/Dylancouzon/googly-search/raw/main/client/assets/images/google-search.gif',
+    title: 'Googly-Search',
+    date: 'May 27, 2021',
+    link: 'https://github.com/Dylancouzon/googly-search',
+  },
+  {
     img: 'https://github.com/Dylancouzon/farQuest/raw/main/public/assets/homepage.gif',
     title: 'FarQuest',
     date: 'May 10, 2021',
@@ -28,12 +34,6 @@ const tileData = [
     title: 'Fitness Tracker',
     date: 'May 14, 2021',
     link: 'https://github.com/Dylancouzon/Fitness-Tracker',
-  },
-  {
-    img: 'https://github.com/Dylancouzon/Blog-site/raw/main/public/demo.gif',
-    title: 'Blog Site',
-    date: 'May 3rd, 2021',
-    link: 'https://github.com/Dylancouzon/Blog-site',
   },
 ];
 
