@@ -26,7 +26,7 @@ export default function TitlebarGridList({ value }) {
     const classes = useStyles();
     return (
         <GridListTile key={value.img} className={classes.tile}>
-            <img src={value.img} alt={value.title} className={classes.image} />
+            <a href={value.link2} target="_blank" rel="noreferrer"><img src={value.img} alt={value.title} className={classes.image} /></a>
             <GridListTileBar
                 title={value.title}
                 subtitle={<span>{value.date}</span>}
