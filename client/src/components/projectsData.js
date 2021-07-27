@@ -1,5 +1,17 @@
 const tileData = [
   {
+    img: 'https://i.ibb.co/V2V8hHf/Screenshot-2021-07-27-145140.png',
+    title: 'PhanCor Media',
+    date: 'June 27, 2021',
+    link: 'https://dylancouzon.github.io/PhanCor/',
+  }, 
+  {
+    img: 'https://github.com/Dylancouzon/Cryptonite/raw/main/client/public/assets/readme/signup3.gif',
+    title: 'Cryptonite',
+    date: 'June 6, 2021',
+    link: 'http://cryptonite-env.eba-kvnfavpx.us-west-2.elasticbeanstalk.com/',
+  }, 
+  {
     img: 'https://github.com/Dylancouzon/googly-search/raw/main/client/assets/images/google-search.gif',
     title: 'Googly-Search',
     date: 'May 27, 2021',
